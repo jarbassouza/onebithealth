@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Title from './src/componets/title';  // Import the Title component
+import Title from './src/componets/Title';
+import Main from './src/componets/Main/';
 
 export default function App() {
   return(
     <View style={styles.container}>
     <Title/>
+    <Main/>
     </View>
   );
 } 
