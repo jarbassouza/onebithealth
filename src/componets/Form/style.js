@@ -1,8 +1,10 @@
+
 import { StyleSheet } from "react-native";
-import Form from ".";
-import { Button } from "react-native-web";
+//import Form from "."; //Excluir?
+//import { Button } from "react-native-web";
 
 const styles = StyleSheet.create({
+    
     formContext: {
         width: "100%",
         height: "100%",
@@ -47,6 +49,12 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: "#ffffff",
     },
+    errorMessage: {
+        fontSize: 12,
+        color: "red",
+        fontWeight: "bold",
+        paddingLeft: 20,
+    }
 })
 
  export default styles;
