@@ -1,3 +1,6 @@
+
+//Aula 4-3 > (04-01-2025)
+
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Title from './src/componets/Title';
